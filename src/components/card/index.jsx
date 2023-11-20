@@ -1,7 +1,13 @@
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
-import React from 'react'
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
+import React from "react";
 
-const index = ({item}) => {
+const MovieCard = ({ item }) => {
   return (
     <Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
@@ -16,7 +22,7 @@ const index = ({item}) => {
         </CardContent>
       </CardActionArea>
     </Card>
-  )
-}
+  );
+};
 
-export default index
+export default MovieCard;
